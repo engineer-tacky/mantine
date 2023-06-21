@@ -22,6 +22,9 @@ const ButtonDemo = () => {
           Press
         </Button>
         <Button mt="md">Click</Button>
+        <Link href="/">
+          <ReplyIcon className="mt-4 h-6 w-6 cursor-pointer text-gray-300" />
+        </Link>
       </Group>
     </Layout>
   )
